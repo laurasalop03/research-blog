@@ -24,13 +24,13 @@ research-blog/
 Clone the repository and install the dependencies:
 
 ```bash
-git clone git@github.com:laurasalop03/research-blog.git
+git clone https://github.com/laurasalop03/research-blog.git
 cd research-blog
 
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
+
 python -m pip install -r requirements.txt
-python -m pip install ipykernel
 ```
 
 Then open a notebook in VS Code or Jupyter and select the `.venv` Python kernel.

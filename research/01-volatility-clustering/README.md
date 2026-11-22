@@ -25,7 +25,7 @@ The analysis examines volatility clustering and compares forecasts using mean sq
 
 ## Main Findings
 
-GARCH(1,1) achieved the lowest out-of-sample MSE and QLIKE among the four approaches tested. These findings are specific to the sample and model configurations used.
+GARCH(1,1) achieved the lowest out-of-sample MSE and QLIKE among the four approaches tested, and its QLIKE advantage over EWMA was significant at the 5% level in a Diebold–Mariano-style test. These findings are specific to the sample and model configurations used.
 
 ## Reproducing the Analysis
 

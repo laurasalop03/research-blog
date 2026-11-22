@@ -1,10 +1,16 @@
-numpy
-pandas
-matplotlib
-yfinance
-statsmodels
-scipy
-arch
-ipykernel
+# Direct dependencies, pinned to the versions in the .venv (Python 3.10.12)
+# that produced the published results. Upgrade only on purpose and re-check
+# the notebooks' outputs afterwards.
+numpy==2.2.6
+pandas==2.3.3
+matplotlib==3.10.9
+yfinance==1.7.0
+statsmodels==0.15.0
+scipy==1.15.3
+arch==8.0.0
+ipykernel==7.3.0
+
+# Not installed in the .venv when the versions above were pinned (2026-11-22),
+# and not used by the current notebooks, so left unpinned.
 scikit-learn
 jupyter

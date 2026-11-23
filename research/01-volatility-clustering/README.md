@@ -15,7 +15,7 @@ It compares four approaches: historical variance, rolling variance, EWMA and GAR
 ## Data
 
 - **Asset:** S&P 500 Index (`^GSPC`)
-- **Source:** Yahoo Finance (`yfinance`)
+- **Source:** Yahoo Finance (`yfinance`), read from a local snapshot `data/GSPC.csv` (downloaded 2026-11-23, 4,217 rows). The snapshot is not committed, because Yahoo's terms restrict redistribution. The notebook records its SHA-256 checksum, shows the download code that recreates it, and stops if the file doesn't match. Yahoo can revise history, so a new download may differ.
 - **Period:** January 2010 - October 2026
 - **Evaluation:** Chronological training, validation and test periods
 
